@@ -20,7 +20,8 @@ also, make sure you set the core version as such:
 
 Create a **Notification** folder in the **UI** directory, then create **NotificationFragment** inside the **Notification** folder.
 
-`class NotifivationFragment : AppCompatActivity() {
+```
+class NotifivationFragment : AppCompatActivity() {
  
     // declaring variables
     lateinit var notificationManager: NotificationManager
@@ -33,13 +34,9 @@ Create a **Notification** folder in the **UI** directory, then create **Notifica
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
  
-        // accessing button
-        val btn = findViewById<Button>(R.id.btn)
- 
-
         notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-        ```
+```
         
-        **NotificationManager** is a class to notify the user of events that happen. This is how you tell the user that something has happened in the background.
+**NotificationManager** is a class to notify the user of events that happen. This is how you tell the user that something has happened in the background.
         
        

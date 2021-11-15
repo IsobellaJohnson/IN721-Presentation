@@ -121,5 +121,8 @@ class NotifivationFragment : AppCompatActivity() {
     }
 }
 ```
-        
+
+With this, we have now successfully created a **Notification** for our application. Note that the parameters listed in the above code are required and the absence of any single parameter could result in crashing or not starting the application. The content title, content text, small icon are customizable parameters but are mandatory also. One can change their values according to the requirement.
+
+
        

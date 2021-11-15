@@ -125,9 +125,9 @@ class NotifivationFragment : AppCompatActivity() {
 With this, we have now successfully created a **Notification** for our application. Note that the parameters listed in the above code are required and the absence of any single parameter could result in crashing or not starting the application. The content title, content text, small icon are customizable parameters but are mandatory also. One can change their values according to the requirement.
 
 ## References
-_Notifications in Android with Example. (2021, January 01). Retrieved from https://www.geeksforgeeks.org/notifications-in-kotlin/?ref=lbp
+*Notifications in Android with Example. (2021, January 01). Retrieved from https://www.geeksforgeeks.org/notifications-in-kotlin/?ref=lbp*
 
-_Otago-Polytechnic-Bit-Courses. (n.d.). IN721-mobile-application-development/07-view-model.md at master · otago-polytechnic-bit-courses/IN721-mobile-application-development. Retrieved November 15, 2021, from https://github.com/otago-polytechnic-bit-courses/IN721-mobile-application-development/blob/master/lecture-notes/07-view-model.md
+*Otago-Polytechnic-Bit-Courses. (n.d.). IN721-mobile-application-development/07-view-model.md at master · otago-polytechnic-bit-courses/IN721-mobile-application-development. Retrieved November 15, 2021, from https://github.com/otago-polytechnic-bit-courses/IN721-mobile-application-development/blob/master/lecture-notes/07-view-model.md*
 
 
        

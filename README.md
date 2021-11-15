@@ -69,7 +69,6 @@ Create a **Notification** folder in the **UI** directory, then create **Notifica
 ```
 class NotifivationFragment : AppCompatActivity() {
  
-    // declaring variables
     lateinit var notificationManager: NotificationManager
     lateinit var notificationChannel: NotificationChannel
     lateinit var builder: Notification.Builder

@@ -15,6 +15,52 @@ also, make sure you set the core version as such:
 ```
     val core_version = "1.6.0"
 ```
+### fragment_notification.xml
+
+Create a **fragment_notification** in the **layout** directory. This will be responsible for the layout of your notifications page. We will create a button which the user clicks to generate a notification.
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+ 
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Send Notification" />
+ 
+</RelativeLayout>
+```
+
+We then want to create another activity, named **after_notification.xml** this will open up in our app that is the user will be redirected to this page. Below is the code for the **after_notification.xml** file.
+
+```
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".afterNotification">
+ 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Welcome To GeeksforGeeks"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+ 
+</RelativeLayout>
+```
 
 ### NotificationFragment
 
